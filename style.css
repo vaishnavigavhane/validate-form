@@ -16,27 +16,22 @@
     }
 
     .contact-left {
-      /* background: rgba(255,255,255,0.08); */
       background: linear-gradient(135deg, #667eea, #764ba2);
       backdrop-filter: blur(18px);
       color: white;
       padding: 60px 40px;
     }
-
     .contact-left h2 {
       font-weight: 700;
       font-size: 32px;
     }
-
     .contact-left p {
       opacity: 0.85;
     }
-
     .contact-right {
       background: white;
       padding: 60px 40px;
     }
-
     .form-floating > .form-control {
       border-radius: 14px;
       border: 1px solid #e5e7eb;
@@ -61,7 +56,7 @@
       box-shadow: 0 10px 25px rgba(118,75,162,.35);
     }
     span i{
-      font-size: 14px;
+      font-size: 13px;
     }
     .icon-box {
       width: 45px;
