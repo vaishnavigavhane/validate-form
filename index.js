@@ -19,7 +19,9 @@ let btnSubmit = document.getElementById("submit");
         nameError.innerHTML = '<i class="bi bi-check-circle-fill text-success"></i>';
         return true;
     }
-   
+
+   // <---------------------- Phone Validation ------------------------->
+
     function validatePhone(){
         let phone = document.getElementById("phone").value;
         if(phone.length == 0){
@@ -38,6 +40,7 @@ let btnSubmit = document.getElementById("submit");
         return true;
 
     }
+// <---------------------- Email Validation ------------------------->
 
     function validateEmail(){
         let email = document.getElementById("email").value;
@@ -53,6 +56,7 @@ let btnSubmit = document.getElementById("submit");
         emailError.innerHTML = '<i class="bi bi-check-circle-fill text-success"></i>';
         return true;
     }
+// <---------------------- Message Validation ------------------------->
 
     function validateMsg(){
         let msg = document.getElementById("message").value;
@@ -68,6 +72,7 @@ let btnSubmit = document.getElementById("submit");
 
     }
 
+// <---------------------- Form Validation ------------------------->
 
     btnSubmit.addEventListener("click", function(e){
         if(!validateName() || !validatePhone() || !validateEmail() || !validateMsg()){
