@@ -5,7 +5,7 @@ let messageError = document.getElementById("messageError");
 let submitError = document.getElementById("submitError");
 let btnSubmit = document.getElementById("submit");
 
-
+// <---------------------- Name Validation ------------------------->
     function validateName(){
         let name = document.getElementById("name").value;
         if(name.length == 0){
